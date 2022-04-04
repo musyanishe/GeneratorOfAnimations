@@ -14,6 +14,7 @@
 		CE78966627FB91E1009FC286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966427FB91E1009FC286 /* Main.storyboard */; };
 		CE78966827FB91E2009FC286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE78966727FB91E2009FC286 /* Assets.xcassets */; };
 		CE78966B27FB91E2009FC286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */; };
+		CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2A9A527FBA37C002810F7 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE78966727FB91E2009FC286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE78966A27FB91E2009FC286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE78966C27FB91E2009FC286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC2A9A527FBA37C002810F7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				02B4906A59B4AEC36DDDDD63 /* Pods-GeneratorOfAnimations.debug.xcconfig */,
 				335C5D12E4606A071B4EFF89 /* Pods-GeneratorOfAnimations.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				CE78965E27FB91E1009FC286 /* AppDelegate.swift */,
 				CE78966027FB91E1009FC286 /* SceneDelegate.swift */,
 				CE78966227FB91E1009FC286 /* ViewController.swift */,
+				CEC2A9A527FBA37C002810F7 /* Animation.swift */,
 				CE78966427FB91E1009FC286 /* Main.storyboard */,
 				CE78966727FB91E2009FC286 /* Assets.xcassets */,
 				CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */,
@@ -209,6 +211,7 @@
 			files = (
 				CE78966327FB91E1009FC286 /* ViewController.swift in Sources */,
 				CE78965F27FB91E1009FC286 /* AppDelegate.swift in Sources */,
+				CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */,
 				CE78966127FB91E1009FC286 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
