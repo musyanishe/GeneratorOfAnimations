@@ -84,17 +84,65 @@
 		CE78965D27FB91E1009FC286 /* GeneratorOfAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				CE78965E27FB91E1009FC286 /* AppDelegate.swift */,
-				CE78966027FB91E1009FC286 /* SceneDelegate.swift */,
-				CE78966227FB91E1009FC286 /* ViewController.swift */,
-				CEC2A9A527FBA37C002810F7 /* Animation.swift */,
-				CE78966427FB91E1009FC286 /* Main.storyboard */,
-				CE78966727FB91E2009FC286 /* Assets.xcassets */,
-				CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */,
-				CE78966C27FB91E2009FC286 /* Info.plist */,
-				CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */,
+				CE9F6CB027FC812900E893F4 /* Supporting files */,
+				CE9F6CB227FC81AB00E893F4 /* View Controllers */,
+				CE9F6CAD27FC80B400E893F4 /* Model */,
+				CE9F6CAF27FC810600E893F4 /* Storyboards */,
+				CE9F6CB127FC81A000E893F4 /* Resources */,
+				CE9F6CAE27FC80DC00E893F4 /* Services */,
 			);
 			path = GeneratorOfAnimations;
+			sourceTree = "<group>";
+		};
+		CE9F6CAD27FC80B400E893F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2A9A527FBA37C002810F7 /* Animation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE9F6CAE27FC80DC00E893F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE9F6CAF27FC810600E893F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE78966427FB91E1009FC286 /* Main.storyboard */,
+				CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE9F6CB027FC812900E893F4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CE78965E27FB91E1009FC286 /* AppDelegate.swift */,
+				CE78966027FB91E1009FC286 /* SceneDelegate.swift */,
+				CE78966C27FB91E2009FC286 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		CE9F6CB127FC81A000E893F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE78966727FB91E2009FC286 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE9F6CB227FC81AB00E893F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE78966227FB91E1009FC286 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +416,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DTSRHZ7G5C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GeneratorOfAnimations/Info.plist;
+				INFOPLIST_FILE = "GeneratorOfAnimations/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -397,7 +445,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DTSRHZ7G5C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GeneratorOfAnimations/Info.plist;
+				INFOPLIST_FILE = "GeneratorOfAnimations/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
