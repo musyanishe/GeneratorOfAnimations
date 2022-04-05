@@ -10,11 +10,11 @@
 		28389814613472B9DEC6CF37 /* Pods_GeneratorOfAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A8D7D1264EBDF72129A68D /* Pods_GeneratorOfAnimations.framework */; };
 		CE78965F27FB91E1009FC286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78965E27FB91E1009FC286 /* AppDelegate.swift */; };
 		CE78966127FB91E1009FC286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78966027FB91E1009FC286 /* SceneDelegate.swift */; };
-		CE78966327FB91E1009FC286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78966227FB91E1009FC286 /* ViewController.swift */; };
 		CE78966627FB91E1009FC286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966427FB91E1009FC286 /* Main.storyboard */; };
 		CE78966827FB91E2009FC286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE78966727FB91E2009FC286 /* Assets.xcassets */; };
 		CE78966B27FB91E2009FC286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */; };
 		CE9F6CAC27FC7DFB00E893F4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */; };
+		CE9F6CB427FCE5FF00E893F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F6CB327FCE5FF00E893F4 /* ViewController.swift */; };
 		CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2A9A527FBA37C002810F7 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +25,12 @@
 		CE78965B27FB91E1009FC286 /* GeneratorOfAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneratorOfAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE78965E27FB91E1009FC286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE78966027FB91E1009FC286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE78966227FB91E1009FC286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE78966527FB91E1009FC286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE78966727FB91E2009FC286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE78966A27FB91E2009FC286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE78966C27FB91E2009FC286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CE9F6CB327FCE5FF00E893F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEC2A9A527FBA37C002810F7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 		CE9F6CB227FC81AB00E893F4 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE78966227FB91E1009FC286 /* ViewController.swift */,
+				CE9F6CB327FCE5FF00E893F4 /* ViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78966327FB91E1009FC286 /* ViewController.swift in Sources */,
+				CE9F6CB427FCE5FF00E893F4 /* ViewController.swift in Sources */,
 				CE9F6CAC27FC7DFB00E893F4 /* DataManager.swift in Sources */,
 				CE78965F27FB91E1009FC286 /* AppDelegate.swift in Sources */,
 				CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */,
