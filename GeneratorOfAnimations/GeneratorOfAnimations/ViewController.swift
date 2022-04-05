@@ -5,7 +5,7 @@
 //  Created by Евгения Шевцова on 04.04.2022.
 //
 
-import UIKit
+import Spring
 
 class ViewController: UIViewController {
 
@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func runAnimationButtonPressed(_ sender: SpringButton) {
+    }
+    
 }
 

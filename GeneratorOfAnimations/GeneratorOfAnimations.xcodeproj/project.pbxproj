@@ -14,6 +14,7 @@
 		CE78966627FB91E1009FC286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966427FB91E1009FC286 /* Main.storyboard */; };
 		CE78966827FB91E2009FC286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE78966727FB91E2009FC286 /* Assets.xcassets */; };
 		CE78966B27FB91E2009FC286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */; };
+		CE9F6CAC27FC7DFB00E893F4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */; };
 		CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2A9A527FBA37C002810F7 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		CE78966727FB91E2009FC286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE78966A27FB91E2009FC286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE78966C27FB91E2009FC286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CEC2A9A527FBA37C002810F7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				CE78966727FB91E2009FC286 /* Assets.xcassets */,
 				CE78966927FB91E2009FC286 /* LaunchScreen.storyboard */,
 				CE78966C27FB91E2009FC286 /* Info.plist */,
+				CE9F6CAB27FC7DFB00E893F4 /* DataManager.swift */,
 			);
 			path = GeneratorOfAnimations;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE78966327FB91E1009FC286 /* ViewController.swift in Sources */,
+				CE9F6CAC27FC7DFB00E893F4 /* DataManager.swift in Sources */,
 				CE78965F27FB91E1009FC286 /* AppDelegate.swift in Sources */,
 				CEC2A9A627FBA37C002810F7 /* Animation.swift in Sources */,
 				CE78966127FB91E1009FC286 /* SceneDelegate.swift in Sources */,
