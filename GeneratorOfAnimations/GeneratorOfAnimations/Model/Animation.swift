@@ -29,7 +29,7 @@ struct Animation {
             preset: DataManager.shared.animation.randomElement()?.rawValue ?? "slideLeft",
             curve: DataManager.shared.curve.randomElement()?.rawValue ?? "spring",
             force: Float.random(in: 1...2),
-            duration: Float.random(in: 0...3),
+            duration: Float.random(in: 1...2),
             delay: Float.random(in: 0.3...0.9)
         )
     }

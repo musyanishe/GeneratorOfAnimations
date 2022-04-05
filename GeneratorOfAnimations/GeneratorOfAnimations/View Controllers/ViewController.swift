@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         springAnimationView.animate()
         
         animation = Animation.getRandomAnimation()
-        sender.setTitle("Run: \(animation.description)", for: .normal)
+        sender.setTitle("Run \(animation.description)", for: .normal)
     }
     
 }
